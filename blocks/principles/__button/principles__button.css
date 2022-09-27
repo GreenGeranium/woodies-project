@@ -1,0 +1,17 @@
+.principles__button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #DAA520;
+  border-radius: 4px;
+  text-decoration: none;
+  align-self: center;
+  padding: 14px 24px;
+}
+
+.principles__button:hover {
+  opacity: 80%;
+}

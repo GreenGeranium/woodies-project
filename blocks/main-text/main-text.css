@@ -1,0 +1,9 @@
+.main-text {
+  width: 504px;
+  height: 376px;
+  position: absolute;
+  top: 217px;
+  left: 102px;
+  display: flex;
+  flex-direction: column;
+}

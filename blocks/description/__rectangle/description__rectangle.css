@@ -1,0 +1,11 @@
+.description__rectangle {
+  position: absolute;
+  width: 278px;
+  height: 388px;
+  background: #F7DEA6;
+  left: 100px;
+  top: 138px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  z-index: -1;
+}

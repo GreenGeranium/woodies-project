@@ -1,0 +1,11 @@
+.table-catalog__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #3E3F43;
+  position: absolute;
+  top: 24px;
+  left: 16px;
+}

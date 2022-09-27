@@ -1,0 +1,10 @@
+.section-head__subtitle {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #3E3F43;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}

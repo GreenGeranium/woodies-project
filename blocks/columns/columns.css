@@ -1,0 +1,10 @@
+.columns {
+  width: 500px;
+  height: 500px;
+  width: 709px;
+  height: 138px;
+  margin-right: 336px;
+  margin-left: 107px;
+  display: flex;
+  justify-content: space-between;
+}

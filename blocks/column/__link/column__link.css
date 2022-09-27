@@ -1,0 +1,13 @@
+.column__link {
+  text-decoration: none;
+  color: #8D8D8D;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 16px;
+}
+
+.column__link:hover {
+  opacity: 80%;
+}

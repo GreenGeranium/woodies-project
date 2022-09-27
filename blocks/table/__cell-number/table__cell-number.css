@@ -1,0 +1,13 @@
+.table__cell-number {
+  color: rgba(249, 189, 189, 0.25);
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 131px;
+  position: absolute;
+  width: 58px;
+  height: 131px;
+  left: 17px;
+  top: 18.5px;
+}

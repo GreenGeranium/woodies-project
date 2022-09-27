@@ -1,0 +1,7 @@
+.navigation {
+  height: 80px;
+  width: 1152px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
