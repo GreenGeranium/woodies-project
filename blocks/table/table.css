@@ -1,8 +1,11 @@
 .table {
+  margin: 0;
+  padding: 0;
   display: flex;
   width: 952px;
   height: 177px;
   justify-content: space-between;
   margin-top: 64px;
   margin-bottom: 64px;
+  list-style: none;
 }
