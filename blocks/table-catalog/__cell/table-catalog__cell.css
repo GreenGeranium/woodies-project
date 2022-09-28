@@ -15,7 +15,7 @@
   background-color: #F9BDBD;
 }
 
-.table-catalog__cell:nth-of-type(2n) {
+.table-catalog__cell:nth-of-type(3n-1) {
   background-color: #F7DEA6;
 }
 
@@ -24,15 +24,3 @@
   margin-right: 0;
 }
 
-.table-catalog__cell:nth-of-type(4n) {
-  background-color: #F9BDBD;
-}
-
-.table-catalog__cell:nth-of-type(5n) {
-  background-color: #F7DEA6;
-}
-
-.table-catalog__cell:nth-of-type(6n) {
-  background-color: #A8DCEC;
-  margin-right: 0;
-}

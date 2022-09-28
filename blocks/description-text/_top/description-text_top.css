@@ -1,7 +1,7 @@
 .description-text_top {
-  position: absolute;
   width: 448px;
   height: 180px;
-  left: 604px;
-  top: 242px;
+  margin-left: 226px;
+  margin-top: 104px;
+  margin-right: 100px;
 }

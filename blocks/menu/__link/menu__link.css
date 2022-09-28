@@ -4,7 +4,6 @@
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
-  margin-right: 48px;
 }
 
 .menu__link:first-of-type {
@@ -16,6 +15,3 @@
   opacity: 80%;
 }
 
-.menu__link:last-of-type {
-  margin-right: 0;
-}

@@ -1,10 +1,10 @@
-.header__rectangle-pic {
+.starting__rectangle {
   position: absolute;
   width: 370px;
   height: 800px;
   left: 782px;
   top: 0px;
-  background: #F9BDBD;
   z-index: -1;
+  background-color: #F9BDBD;
   border-bottom-left-radius: 100px;
 }

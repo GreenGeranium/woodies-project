@@ -1,5 +1,4 @@
 .logo_header {
-  position: absolute;
-  top: 23px;
-  left: 80px;
+  margin-left: 80px;
+  margin-top: 23px;
 }

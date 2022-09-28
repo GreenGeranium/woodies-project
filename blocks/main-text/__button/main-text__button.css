@@ -1,7 +1,8 @@
 .main-text__button {
-  width: 127px;
+  width: 175px;
   height: 50px;
   background: #DAA520;
+  border: 0;
   border-radius: 4px;
   font-family: 'Nunito';
   font-style: normal;
@@ -10,7 +11,6 @@
   line-height: 22px;
   color: #FFFFFF;
   text-align: center;
-  padding: 14px 24px;
   text-decoration: none;
 }
 

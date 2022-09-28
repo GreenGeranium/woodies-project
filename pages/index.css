@@ -1,6 +1,6 @@
 @import url("../vendor/normalize.css");
 @import url("../blocks/root/root.css");
-@import url("../blocks/header/header.css");
+@import url("../blocks/starting/starting.css");
 @import url("../blocks/navigation/navigation.css");
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/_header/logo_header.css");
@@ -10,17 +10,19 @@
 @import url("../blocks/main-text/__subtitle/main-text__subtitle.css");
 @import url("../blocks/main-text/__title/main-text__title.css");
 @import url("../blocks/main-text/__button/main-text__button.css");
-@import url("../blocks/header/__main-illustration/header__main-illustration.css");
-@import url("../blocks/header/__rectangle-pic/__header__rectangle-pic.css");
+@import url("../blocks/starting/__main-illustration/starting__main-illustration.css");
+@import url("../blocks/starting/__rectangle/starting__rectangle.css");
 @import url("../blocks/content/content.css");
 @import url("../blocks/description/description.css");
 @import url("../blocks/section-head/section-head.css");
+@import url("../blocks/description/__main/description__main.css");
 @import url("../blocks/description-text/description-text.css");
 @import url("../blocks/description-text/_top/description-text_top.css");
 @import url("../blocks/description-text/_bottom/description-text_bottom.css");
 @import url("../blocks/description-text/__title/description-text__title.css");
 @import url("../blocks/description-text/__paragraph/description-text__paragraph.css");
 @import url("../blocks/description/__rectangle/description__rectangle.css");
+@import url("../blocks/description/__rectangle-spoons/description__rectangle-spoons.css");
 @import url("../blocks/description/__image-salad/description__image-salad.css");
 @import url("../blocks/description/__image-spoons/description__image-spoons.css");
 @import url("../blocks/section-head/__subtitle/section-head__subtitle.css");
@@ -40,7 +42,6 @@
 @import url("../blocks/table-catalog/__button/table-catalog__button.css");
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__img/footer__img.css");
-@import url("../blocks/footer/__line/footer__line.css");
 @import url("../blocks/columns/columns.css");
 @import url("../blocks/column/column.css");
 @import url("../blocks/column/_contacts/column_contacts.css");
