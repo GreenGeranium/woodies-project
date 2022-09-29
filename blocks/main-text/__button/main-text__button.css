@@ -12,6 +12,7 @@
   color: #FFFFFF;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .main-text__button:hover {
