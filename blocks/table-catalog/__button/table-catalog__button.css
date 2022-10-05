@@ -2,15 +2,14 @@
   border: 1px solid #3E3F43;
   margin: 0;
   border-radius: 4px;
-  position: absolute;
   padding: 8px 18px 7px 19px;
-  right: 34px;
-  bottom: 31px;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   color: #3E3F43;
   text-decoration: none;
+  align-self: flex-end;
+  margin: 0 16px 24px 0;
 }
 
 .table-catalog__button:hover {
