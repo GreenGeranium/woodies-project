@@ -1,9 +1,6 @@
 .table-catalog__cell {
   display: flex;
   flex-direction: column;
-  width: calc(100% / 3 - 56px * 2 / 3);
-  margin-right: 56px;
-  margin-bottom: 40px;
   height: 400px;
   border-bottom-left-radius: 80px;
   border-top-right-radius: 80px;
@@ -20,6 +17,5 @@
 
 .table-catalog__cell:nth-child(3n+3) {
   background-color: #A8DCEC;
-  margin-right: 0;
 }
 
