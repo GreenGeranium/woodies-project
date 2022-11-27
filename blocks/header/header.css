@@ -1,5 +1,8 @@
 .header {
   width: 1152px;
-  position: relative;
+  position: fixed;
   display: flex;
+  background-color: white;
+  z-index: 2;
+  top: 0;
 }

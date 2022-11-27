@@ -1,7 +1,6 @@
 .footer__img {
   position: absolute;
-  width: 508px;
-  height: 455px;
+  height: 255px;
   right: 0;
   bottom: 0;
   z-index: -1;

@@ -1,166 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Woodies</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Woodies</title>
-  <link rel="stylesheet" href="./pages/index.css">
-  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-</head>
-
-<body>
-  <div class="page">
-    <header class="header">
-      <img class="logo logo_header" src="./images/Group%2028.svg" alt="Logo Woodies">
-      <nav class="menu">
-        <a class="menu__link" href="#">Home</a>
-        <a class="menu__link" href="#description">About Us</a>
-        <a class="menu__link" href="#principles">How it works</a>
-        <a class="menu__link" href="#categories">Categories</a>
-      </nav>
-    </header>
-    <main class="content">
-      <section class="starting">
-        <div class="main-text">
-          <p class="main-text__subtitle">Are you looking for woodden furniture for your place?</p>
-          <h1 class="main-text__title">This is the Right Place</h1>
-          <button class="main-text__button" href="#">Explore Furniture</button>
-        </div>
-        <div class="starting__rectangle">
-          <img class="starting__main-illustration" alt="a wood table"
-            src="./images/Simple-modern-balcony-small-coffee-table-living-room-small-apartment-sofa-side-table-simple-home-bedroom%201.svg">
-        </div>
-      </section>
-      <section id="description" class="description">
-        <div class="section-head">
-          <p class="section-head__subtitle">Who we are</p>
-          <h2 class="section-head__title">ABOUT US</h2>
-        </div>
-        <div class="description__main">
-          <div class="description__rectangle">
-            <img class="description__image-salad" alt="salad in wood"
-              src="./images/Kalmar-Home-7-pc-Acacia-Wood-Salad-Bowl-Set%201.svg">
-          </div>
-          <div class="description-text description-text_top">
-            <h3 class="description-text__title">WOODIES is the home of modern wooden furniture</h3>
-            <p class="description-text__paragraph">the answer to your need for furniture with shapes, sizes and colors.
+  <body>
+    <div class="page">
+      <header class="header">
+        <img
+          class="logo logo_header"
+          src="./images/Group%2028.svg"
+          alt="Logo Woodies"
+        />
+        <nav class="menu">
+          <a class="menu__link" href="./index.html">Home</a>
+          <a class="menu__link" href="./pages/description.html">О нас</a>
+          <a class="menu__link" href="./pages/principles.html"
+            >Как мы работаем</a
+          >
+          <a class="menu__link" href="./pages/categories.html">Категории</a>
+          <a class="menu__link" href="./pages/contact.html"
+            ><img src="./images/support.png" style="height: 20px; width: 20px"
+          /></a>
+        </nav>
+      </header>
+      <main class="content">
+        <section class="starting">
+          <div class="main-text">
+            <p class="main-text__subtitle">
+              Вы ищете деревянную мебель для своего дома?
             </p>
+            <h1 class="main-text__title">Вы там, где нужно</h1>
+            <button class="main-text__button" type="button">
+              <a
+                href="./pages/categories.html"
+                style="
+                  text-decoration: none;
+                  color: white;
+                  display: block;
+                  padding: 10px 0;
+                "
+                >Исследовать мебель</a
+              >
+            </button>
           </div>
-          <div class="description-text description-text_bottom">
-            <h3 class="description-text__title">Customized furniture made just for you</h3>
-            <p class="description-text__paragraph">Get it easy to adjust furniture to the shape and size of your
-              dwelling
-              or business.</p>
+          <div class="starting__rectangle">
+            <img
+              class="starting__main-illustration"
+              alt="a wood table"
+              src="./images/Simple-modern-balcony-small-coffee-table-living-room-small-apartment-sofa-side-table-simple-home-bedroom%201.svg"
+            />
           </div>
-          <div class="description__rectangle-spoons">
-            <img class=" description__image-spoons" alt="wood spoons"
-              src="./images/Script-Online-Ado-Beech-Steel-Spoon-Set-Of-3-52151704SD00001-PDP-Gallery-D-01%201.svg">
+        </section>
+      </main>
+      <footer class="footer">
+        <img
+          class="footer__img"
+          alt="Office table with a computer"
+          src="./images/pexels-photo-509922%201.svg"
+        />
+        <div class="columns">
+          <div class="column column_contacts">
+            <img
+              class="logo"
+              src="./images/Group%2028.svg"
+              alt="Logo Woodies"
+            />
+            <p class="column__text">+7 012 8967453</p>
+            <p class="column__text">test@email.com</p>
+            <p class="column__text">Адрес</p>
           </div>
+          <div class="column column_products">
+            <h2 class="column__heading">Продукция</h2>
+            <a class="column__link" href="./pages/categories.html">Мебель</a>
+          </div>
+          <nav class="column column_company">
+            <h2 class="column__heading">Наша компания</h2>
+            <a class="column__link" href="./pages/description.html">О нас</a>
+          </nav>
+          <nav class="column column_social">
+            <h2 class="column__heading">Подпишитесь</h2>
+            <a class="column__link" href="https://ok.ru/" target="_blank"
+              >Одноклассники</a
+            >
+            <a class="column__link" href="https://vk.com/" target="_blank"
+              >ВК</a
+            >
+            <a class="column__link" href="https://dzen.ru/" target="_blank"
+              >Яндекс.Дзен</a
+            >
+          </nav>
         </div>
-      </section>
-      <section id="principles" class="principles">
-        <div class="section-head">
-          <p class="section-head__subtitle">How to custom</p>
-          <h2 class="section-head__title">HOW IT WORKS</h2>
-        </div>
-        <ul class="table">
-          <li class="table__cell">
-            <img src="./images/shop%201.svg" alt="Computer icon" class="table__cell-img">
-            <p class="table__cell-number">1</p>
-            <p class="table__cell-text">Choose Design</p>
-          </li>
-          <li class="table__cell">
-            <img src="./images/ruler%201.svg" alt="Ruler icon" class="table__cell-img">
-            <p class="table__cell-number">2</p>
-            <p class="table__cell-text">Area measuring</p>
-          </li>
-          <li class="table__cell">
-            <img src="./images/cost%201.svg" alt="Calculator icon" class="table__cell-img">
-            <p class="table__cell-number">3</p>
-            <p class="table__cell-text">Budgeting</p>
-          </li>
-          <li class="table__cell">
-            <img src="./images/carpenter%201.svg" alt="Building man" class="table__cell-img">
-            <p class="table__cell-number">4</p>
-            <p class="table__cell-text">Production</p>
-          </li>
-        </ul>
-        <a href="#" class="principles__button">Get Personalized Now</a>
-      </section>
-      <section id="categories" class="categories">
-        <div class="section-head">
-          <p class="section-head__subtitle">What we have</p>
-          <h2 class="section-head__title">CATEGORIES</h2>
-        </div>
-        <ul class="table-catalog">
-          <li class="table-catalog__cell">
-            <h2 class="table-catalog__title">Desk</h2>
-            <img class="table-catalog__img" alt="Desk"
-              src="./images/Konfest-PNG-JPG-Image-Pic-Photo-Free-Download-Royalty-Unlimited-clip-art-sticker-tables-moveable-furniture-furnishing-fixtures-appliance-top-view-48%201.svg">
-            <a class="table-catalog__button" href="#">Shop Now</a>
-          </li>
-          <li class="table-catalog__cell">
-            <h2 class="table-catalog__title">Chair</h2>
-            <img class="table-catalog__img" alt="Chair"
-              src="./images/soft-pad-dining-chair-with-solid-oak-crossed-wood-legs-cool-grey-p1561-26034_zoom%201.svg">
-            <a class="table-catalog__button" href="#">Shop Now</a>
-          </li>
-          <li class="table-catalog__cell">
-            <h2 class="table-catalog__title">Kitchenware</h2>
-            <img class="table-catalog__img" alt="Kitchenware" src="./images/fd2d95252c7fbc851e6dc7463e6b3284%201.svg">
-            <a class="table-catalog__button" href="#">Shop Now</a>
-          </li>
-          <li class="table-catalog__cell">
-            <h2 class="table-catalog__title">Book Shelf</h2>
-            <img class="table-catalog__img" alt="Book Shelf"
-              src="./images/kissclipart-shelf-bookcase-png-clipart-bookshelf-bookcase-bcab65430cdd522a%201.svg">
-            <a class="table-catalog__button" href="#">Shop Now</a>
-          </li>
-          <li class="table-catalog__cell">
-            <h2 class="table-catalog__title">Electronics</h2>
-            <img class="table-catalog__img" alt="Radio" src="./images/Vintage-Radio-PNG-Image%201.svg">
-            <a class="table-catalog__button" href="#">Shop Now</a>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="footer">
-      <img class="footer__img" alt="Office table with a computer" src="./images/pexels-photo-509922%201.svg">
-      <div class="columns">
-        <div class="column column_contacts">
-          <img class="logo" src="./images/Group%2028.svg" alt="Logo Woodies">
-          <p class="column__text">(012) 8967453</p>
-          <p class="column__text">test@email.com</p>
-          <p class="column__text">Test Address</p>
-        </div>
-        <div class="column column_products">
-          <h2 class="column__heading">Product</h2>
-          <a class="column__link" href="#">Furnitures</a>
-          <a class="column__link" href="#">Packages</a>
-          <a class="column__link" href="#">Services</a>
-        </div>
-        <nav class="column column_resources">
-          <h2 class="column__heading">Resources</h2>
-          <a class="column__link" href="#">Blog</a>
-          <a class="column__link" href="#">FAQs</a>
-          <a class="column__link" href="#">Contact Us</a>
-        </nav>
-        <nav class="column column_company">
-          <h2 class="column__heading">Company</h2>
-          <a class="column__link" href="#">About Us</a>
-          <a class="column__link" href="#">Jobs</a>
-          <a class="column__link" href="#">Our Team</a>
-        </nav>
-        <nav class="column column_social">
-          <h2 class="column__heading">Follow Us</h2>
-          <a class="column__link" href="#">Facebook</a>
-          <a class="column__link" href="#">Instagram</a>
-          <a class="column__link" href="#">Twitter</a>
-        </nav>
-      </div>
-      <p class="footer__copyright">&copy; 2020 WOODIES</p>
-    </footer>
-  </div>
-</body>
-
+        <p class="footer__copyright">&copy; 2022 WOODIES</p>
+      </footer>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
 </html>

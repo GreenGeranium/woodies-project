@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Woodies</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <img
+          class="logo logo_header"
+          src="../images/Group%2028.svg"
+          alt="Logo Woodies"
+        />
+        <nav class="menu">
+          <a class="menu__link" href="../index.html">Home</a>
+          <a class="menu__link" href="description.html">О нас</a>
+          <a class="menu__link" href="principles.html">Как мы работаем</a>
+          <a class="menu__link" href="categories.html">Категории</a>
+          <a class="menu__link" href="contact.html"
+            ><img src="../images/support.png" style="height: 20px; width: 20px"
+          /></a>
+        </nav>
+      </header>
+      <main class="content">
+        <section id="contact" class="contact">
+          <div class="section-head">
+            <p class="section-head__subtitle">Форма для связи</p>
+            <h2 class="section-head__title">МЫ ПОМОЖЕМ</h2>
+          </div>
+          <form
+            action="http://185.182.111.214:7628/cgi-bin/form_action.py"
+            method="get"
+            name="contact-form"
+            class="contact-form"
+          >
+            <ul class="contact-form__list">
+              <li>
+                <label>
+                  Имя:
+                  <input placeholder="Иван" name="name" required />
+                </label>
+              </li>
+              <li>
+                <label> Фамилия: </label
+                ><input placeholder="Иванов" name="surname" required />
+              </li>
+              <li>
+                <label>
+                  E-mail
+                  <input
+                    placeholder="example@mail.ru"
+                    name="email"
+                    type="email"
+                    required
+                  />
+                </label>
+              </li>
+              <li>
+                <label> Номер телефона для связи: </label>
+                <input placeholder="+79121234567" name="telephone" required />
+              </li>
+              <li>
+                <label>
+                  Желательное время для связи:
+                  <select name="time-preferable">
+                    <option>8:00 - 12:00</option>
+                    <option>12:00 - 16:00</option>
+                    <option>16:00 - 22:00</option>
+                  </select>
+                </label>
+              </li>
+              <li>
+                <label>
+                  Вопрос:
+                  <select name="type-of-question">
+                    <option>Заказ мебели</option>
+                    <option>Заказ посуды</option>
+                    <option>Вопросы по заказу</option>
+                  </select>
+                </label>
+              </li>
+              <label>
+                Согласен на передачу данных
+                <input type="checkbox" name="agree" checked />
+              </label>
+              <li><button type="submit">Связаться</button></li>
+            </ul>
+          </form>
+        </section>
+      </main>
+      <footer class="footer">
+        <img
+          class="footer__img"
+          alt="Office table with a computer"
+          src="../images/pexels-photo-509922%201.svg"
+        />
+        <div class="columns">
+          <div class="column column_contacts">
+            <img
+              class="logo"
+              src="../images/Group%2028.svg"
+              alt="Logo Woodies"
+            />
+            <p class="column__text">+7 012 8967453</p>
+            <p class="column__text">test@email.com</p>
+            <p class="column__text">Адрес</p>
+          </div>
+          <div class="column column_products">
+            <h2 class="column__heading">Продукция</h2>
+            <a class="column__link" href="#">Мебель</a>
+          </div>
+          <nav class="column column_company">
+            <h2 class="column__heading">Наша компания</h2>
+            <a class="column__link" href="#">О нас</a>
+          </nav>
+          <nav class="column column_social">
+            <h2 class="column__heading">Подпишитесь</h2>
+            <a class="column__link" href="https://ok.ru/" target="_blank"
+              >Одноклассники</a
+            >
+            <a class="column__link" href="https://vk.com/" target="_blank"
+              >ВК</a
+            >
+            <a class="column__link" href="https://dzen.ru/" target="_blank"
+              >Яндекс.Дзен</a
+            >
+          </nav>
+        </div>
+        <p class="footer__copyright">&copy; 2022 WOODIES</p>
+      </footer>
+    </div>
+    <script src="../scripts/index.js"></script>
+  </body>
+</html>

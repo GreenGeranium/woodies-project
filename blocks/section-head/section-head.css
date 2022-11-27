@@ -1,4 +1,5 @@
 .section-head {
+  margin-top: 56px;
   display: flex;
   justify-content: space-between;
 }

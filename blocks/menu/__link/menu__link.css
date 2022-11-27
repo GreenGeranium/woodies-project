@@ -6,11 +6,6 @@
   text-decoration: none;
 }
 
-.menu__link:first-of-type {
-  color: #DAA520;
-  font-weight: 800;
-}
-
 .menu__link:hover {
   opacity: 80%;
 }

@@ -6,6 +6,7 @@
 @import url("../blocks/logo/_header/logo_header.css");
 @import url("../blocks/menu/menu.css");
 @import url("../blocks/menu/__link/menu__link.css");
+@import url('../blocks/menu/__link/_active/menu__link_active.css');
 @import url("../blocks/main-text/main-text.css");
 @import url("../blocks/main-text/__subtitle/main-text__subtitle.css");
 @import url("../blocks/main-text/__title/main-text__title.css");
@@ -40,6 +41,8 @@
 @import url("../blocks/table-catalog/__title/table-catalog__title.css");
 @import url("../blocks/table-catalog/__img/table-catalog__img.css");
 @import url("../blocks/table-catalog/__button/table-catalog__button.css");
+@import url('../blocks/contact-form/contact-form.css');
+@import url('../blocks/contact-form/__list/contact-form__list.css');
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__img/footer__img.css");
 @import url("../blocks/columns/columns.css");

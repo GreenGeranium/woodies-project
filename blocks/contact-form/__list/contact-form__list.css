@@ -1,0 +1,6 @@
+.contact-form__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
