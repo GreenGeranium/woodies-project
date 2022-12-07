@@ -1,0 +1,5 @@
+.description__characteristics {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -21,11 +21,38 @@
         <nav class="menu">
           <a class="menu__link" href="../index.html">Home</a>
           <a class="menu__link" href="description.html">О нас</a>
+          <a class="menu__link" href="description.html#advantages"
+            >Наши преимущества</a
+          >
           <a class="menu__link" href="principles.html">Как мы работаем</a>
           <a class="menu__link" href="categories.html">Категории</a>
           <a class="menu__link" href="contact.html"
             ><img src="../images/support.png" style="height: 20px; width: 20px"
           /></a>
+        </nav>
+        <nav
+          class="menu"
+          style="
+            margin: 0;
+            position: fixed;
+            top: 56px;
+            width: 300px;
+            padding-right: 800px;
+            display: flex;
+            z-index: 5;
+            background-color: white;
+            height: 20px;
+            align-items: center;
+            padding-left: 100px;
+          "
+        >
+          <a class="menu__link" href="description.html">Кто мы</a>
+          <a class="menu__link" href="description.html#materials"
+            >Наши материалы</a
+          >
+          <a class="menu__link" href="description.html#advantages"
+            >Наши плюсы</a
+          >
         </nav>
       </header>
       <main class="content">
@@ -67,6 +94,124 @@
                 src="../images/Script-Online-Ado-Beech-Steel-Spoon-Set-Of-3-52151704SD00001-PDP-Gallery-D-01%201.svg"
               />
             </div>
+          </div>
+          <div class="description__characteristics" id="materials">
+            <h2 class="description__title">
+              Основные метериалы нашей продукции
+            </h2>
+            <table class="description__table">
+              <tr>
+                <th>Название</th>
+                <th>Рейтинг покупателей</th>
+                <th>Фотография</th>
+                <th>Средняя цена товара</th>
+                <th>Открыть</th>
+              </tr>
+              <tr>
+                <td>Дуб</td>
+                <td>4,9</td>
+                <td>
+                  <img
+                    src="https://cs3.livemaster.ru/zhurnalfoto/1/6/b/150804114421.jpeg"
+                    class="description__product-image"
+                  />
+                </td>
+                <td>4000-5000 рублей</td>
+                <td>
+                  <button style="border: 1px solid rgb(231, 166, 45)">
+                    <a
+                      ><img
+                        src="https://vashdommebel.ru/images/product/018/018207/636-1.jpg"
+                        width="100px"
+                        class="example-image"
+                    /></a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Сосна</td>
+                <td>4,7</td>
+                <td>
+                  <img
+                    src="https://extxe.com/wp-content/uploads/2021/04/sosna.jpg"
+                    class="description__product-image"
+                  />
+                </td>
+                <td>3000-4000 рублей</td>
+                <td width="100px">
+                  <button style="border: 1px solid rgb(231, 166, 45)">
+                    <a
+                      ><img
+                        src="https://8.allegroimg.com/original/036fa5/f0f3972747f2bfffb10abf7d7898/STOL-SOSNOWY-DREWNIANY-KUCHENNY-130X70-OLCHA"
+                        width="100px"
+                        class="example-image"
+                    /></a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Береза</td>
+                <td>5,0</td>
+                <td>
+                  <img
+                    src="https://look-wood.ru/images/cms/thumbs/e78e2d582ff9b1441c24f38bcaed0bb50ab9fa33/bereza-finnskaya_495_auto_jpg_5_80.jpg"
+                    class="description__product-image"
+                  />
+                </td>
+                <td>2000-3000 рублей</td>
+                <td width="100px">
+                  <button style="border: 1px solid rgb(231, 166, 45)">
+                    <a
+                      ><img
+                        src="https://design-plaza.ru/images/products/89111/maruni-lightwood-armless-chair/no13-lihgtwood-armless-chair-webbing-seat-_1.jpg"
+                        width="100px"
+                        class="example-image"
+                    /></a>
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="description__advantages" id="advantages">
+            <h2 class="description__title">Наши преимущества</h2>
+            <ul
+              class="description__list_type_number"
+              style="color: rgb(197, 146, 51); font-size: 30px"
+            >
+              <li>КАЧЕСТВО</li>
+              <li>ЦЕНА</li>
+              <li>ГАРАНТИЯ</li>
+            </ul>
+            <ol class="description__list_type_number">
+              <li>
+                <b>Ручная</b> обработка дерева
+                <ul style="list-style: lower-alpha">
+                  <li>Каждый товар выполняется мастерами своего дела</li>
+                  <li>
+                    Все наши работники проходят постоянную переквалификацию
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Гарантия <b>10</b> лет
+                <ul style="list-style: lower-alpha">
+                  <li>
+                    Мы всегда будем сопровождать Вас во время доставки заказа
+                  </li>
+                  <li>Наша поддержка на связи 24/7</li>
+                </ul>
+              </li>
+              <li>
+                Каждый товар выполнен из <b>экологически</b> чистого материала
+                <ul style="list-style: lower-alpha">
+                  <li>
+                    Используется только российское дерево из незаселенных лесов
+                  </li>
+                  <li>Рядом с вырубками высаживаются новые леса</li>
+                </ul>
+              </li>
+              <li><b>Лучшие</b> цены на рынке деревянной мебели</li>
+            </ol>
           </div>
         </section>
       </main>

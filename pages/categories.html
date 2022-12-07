@@ -21,6 +21,9 @@
         <nav class="menu">
           <a class="menu__link" href="../index.html">Home</a>
           <a class="menu__link" href="description.html">О нас</a>
+          <a class="menu__link" href="description.html#advantages"
+            >Наши преимущества</a
+          >
           <a class="menu__link" href="principles.html">Как мы работаем</a>
           <a class="menu__link" href="categories.html">Категории</a>
           <a class="menu__link" href="contact.html"
@@ -34,53 +37,133 @@
             <p class="section-head__subtitle">Что у нас есть</p>
             <h2 class="section-head__title">КАТЕГОРИИ</h2>
           </div>
-          <ul class="table-catalog">
-            <li class="table-catalog__cell">
-              <h2 class="table-catalog__title">Стол</h2>
-              <img
-                class="table-catalog__img"
-                alt="Desk"
-                src="../images/Konfest-PNG-JPG-Image-Pic-Photo-Free-Download-Royalty-Unlimited-clip-art-sticker-tables-moveable-furniture-furnishing-fixtures-appliance-top-view-48%201.svg"
-              />
-              <a class="table-catalog__button" href="#">Купить</a>
-            </li>
-            <li class="table-catalog__cell">
-              <h2 class="table-catalog__title">Стул</h2>
-              <img
-                class="table-catalog__img"
-                alt="Chair"
-                src="../images/soft-pad-dining-chair-with-solid-oak-crossed-wood-legs-cool-grey-p1561-26034_zoom%201.svg"
-              />
-              <a class="table-catalog__button" href="#">Купить</a>
-            </li>
-            <li class="table-catalog__cell">
-              <h2 class="table-catalog__title">Посуда</h2>
-              <img
-                class="table-catalog__img"
-                alt="Kitchenware"
-                src="../images/fd2d95252c7fbc851e6dc7463e6b3284%201.svg"
-              />
-              <a class="table-catalog__button" href="#">Купить</a>
-            </li>
-            <li class="table-catalog__cell">
-              <h2 class="table-catalog__title">Книжный шкаф</h2>
-              <img
-                class="table-catalog__img"
-                alt="Book Shelf"
-                src="../images/kissclipart-shelf-bookcase-png-clipart-bookshelf-bookcase-bcab65430cdd522a%201.svg"
-              />
-              <a class="table-catalog__button" href="#">Купить</a>
-            </li>
-            <li class="table-catalog__cell">
-              <h2 class="table-catalog__title">Электроника</h2>
-              <img
-                class="table-catalog__img"
-                alt="Radio"
-                src="../images/Vintage-Radio-PNG-Image%201.svg"
-              />
-              <a class="table-catalog__button" href="#">Купить</a>
-            </li>
-          </ul>
+          <form
+            class="articles-form"
+            action="http://185.182.111.214:7628/cgi-bin/form_action.py"
+            method="get"
+            name="articles-form"
+            id="articles-form"
+          >
+            <input type="hidden" name="sum" value="0" id="sumOfArticles" />
+            <ul class="table-catalog">
+              <li>
+                <div class="table-catalog__cell">
+                  <h2 class="table-catalog__title">Стол</h2>
+                  <img
+                    class="table-catalog__img"
+                    alt="Desk"
+                    src="../images/Konfest-PNG-JPG-Image-Pic-Photo-Free-Download-Royalty-Unlimited-clip-art-sticker-tables-moveable-furniture-furnishing-fixtures-appliance-top-view-48%201.svg"
+                  />
+                  <h3 class="table-catalog__price">1000 рублей</h3>
+                  <label class="table-catalog__quantity"
+                    >Количество
+                    <input
+                      type="number"
+                      min="0"
+                      max="10"
+                      class="table-catalog__input"
+                      name="qntTable"
+                      value="0"
+                    />
+                  </label>
+                  <p class="table-catalog__sum" id="qntTable"></p>
+                </div>
+              </li>
+              <li>
+                <div class="table-catalog__cell">
+                  <h2 class="table-catalog__title">Стул</h2>
+                  <img
+                    class="table-catalog__img"
+                    alt="Chair"
+                    src="../images/soft-pad-dining-chair-with-solid-oak-crossed-wood-legs-cool-grey-p1561-26034_zoom%201.svg"
+                  />
+                  <h3 class="table-catalog__price">800 рублей</h3>
+                  <label class="table-catalog__quantity"
+                    >Количество
+                    <input
+                      type="number"
+                      min="0"
+                      max="10"
+                      class="table-catalog__input"
+                      name="qntChair"
+                      value="0"
+                    />
+                  </label>
+                  <p class="table-catalog__sum" id="qntChair"></p>
+                </div>
+              </li>
+              <li>
+                <div class="table-catalog__cell">
+                  <h2 class="table-catalog__title">Посуда</h2>
+                  <img
+                    class="table-catalog__img"
+                    alt="Kitchenware"
+                    src="../images/fd2d95252c7fbc851e6dc7463e6b3284%201.svg"
+                  />
+                  <h3 class="table-catalog__price">300 рублей</h3>
+                  <label class="table-catalog__quantity"
+                    >Количество
+                    <input
+                      type="number"
+                      min="0"
+                      max="30"
+                      class="table-catalog__input"
+                      name="qntKitchen"
+                      value="0"
+                    />
+                  </label>
+                  <p class="table-catalog__sum" id="qntKitchen"></p>
+                </div>
+              </li>
+              <li>
+                <div class="table-catalog__cell">
+                  <h2 class="table-catalog__title">Книжный шкаф</h2>
+                  <img
+                    class="table-catalog__img"
+                    alt="Book Shelf"
+                    src="../images/kissclipart-shelf-bookcase-png-clipart-bookshelf-bookcase-bcab65430cdd522a%201.svg"
+                  />
+                  <h3 class="table-catalog__price">4000 рублей</h3>
+                  <label class="table-catalog__quantity"
+                    >Количество
+                    <input
+                      type="number"
+                      min="0"
+                      max="10"
+                      class="table-catalog__input"
+                      name="qntLibrary"
+                      value="0"
+                    />
+                  </label>
+                  <p class="table-catalog__sum" id="qntLibrary"></p>
+                </div>
+              </li>
+              <li>
+                <div class="table-catalog__cell">
+                  <h2 class="table-catalog__title">Электроника</h2>
+                  <img
+                    class="table-catalog__img"
+                    alt="Radio"
+                    src="../images/Vintage-Radio-PNG-Image%201.svg"
+                  />
+                  <h3 class="table-catalog__price">2500 рублей</h3>
+                  <label class="table-catalog__quantity"
+                    >Количество
+                    <input
+                      type="number"
+                      min="0"
+                      max="10"
+                      class="table-catalog__input"
+                      name="qntElectronics"
+                      value="0"
+                    />
+                  </label>
+                  <p class="table-catalog__sum" id="qntElectronics"></p>
+                </div>
+              </li>
+            </ul>
+            <button class="table-catalog__button" type="submit">Купить</button>
+          </form>
         </section>
       </main>
       <footer class="footer">

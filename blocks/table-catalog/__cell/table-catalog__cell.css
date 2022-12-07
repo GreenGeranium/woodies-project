@@ -1,21 +1,12 @@
 .table-catalog__cell {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  margin-bottom: 40px;
+  height: 440px;
   border-bottom-left-radius: 80px;
   border-top-right-radius: 80px;
   justify-content: space-between;
-}
-
-.table-catalog__cell:nth-child(1n) {
-  background-color: #F9BDBD;
-}
-
-.table-catalog__cell:nth-child(3n-1) {
   background-color: #F7DEA6;
 }
 
-.table-catalog__cell:nth-child(3n+3) {
-  background-color: #A8DCEC;
-}
 

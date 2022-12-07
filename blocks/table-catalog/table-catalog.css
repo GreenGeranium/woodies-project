@@ -1,7 +1,7 @@
 .table-catalog {
   display: grid;
   grid-template-columns: repeat(auto-fit, 280px);;
-  grid-template-rows: repeat(auto-fit, 400px);
+  grid-template-rows: repeat(auto-fit, 440px);
   column-gap: 56px;
   row-gap: 40px;
   margin: 0;

@@ -1,0 +1,6 @@
+.description__list_type_number {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-size: 27px;
+}

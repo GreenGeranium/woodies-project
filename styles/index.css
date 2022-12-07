@@ -26,6 +26,10 @@
 @import url("../blocks/description/__rectangle-spoons/description__rectangle-spoons.css");
 @import url("../blocks/description/__image-salad/description__image-salad.css");
 @import url("../blocks/description/__image-spoons/description__image-spoons.css");
+@import url("../blocks/description/__characteristics/description__characteristics.css");
+@import url("../blocks/description/__title/description__title.css");
+@import url("../blocks/description/__table/description__table.css");
+@import url("../blocks/description/__product-image/description__product-image.css");
 @import url("../blocks/section-head/__subtitle/section-head__subtitle.css");
 @import url("../blocks/section-head/__title/section-head__title.css");
 @import url("../blocks/principles/principles.css");
@@ -40,7 +44,14 @@
 @import url("../blocks/table-catalog/__cell/table-catalog__cell.css");
 @import url("../blocks/table-catalog/__title/table-catalog__title.css");
 @import url("../blocks/table-catalog/__img/table-catalog__img.css");
+@import url("../blocks/table-catalog/__input/table-catalog__input.css");
+@import url("../blocks/table-catalog/__price/table-catalog__price.css");
+@import url("../blocks/table-catalog/__sum/table-catalog__sum.css");
+@import url("../blocks/table-catalog/__quantity/table-catalog__quantity.css");
 @import url("../blocks/table-catalog/__button/table-catalog__button.css");
+@import url("../blocks/example-image/example-image.css");
+@import url("../blocks/description/__advantages/description__advantages.css");
+@import url("../blocks/description/__list/_type/_number/description__list_type_number.css");
 @import url('../blocks/contact-form/contact-form.css');
 @import url('../blocks/contact-form/__list/contact-form__list.css');
 @import url("../blocks/footer/footer.css");

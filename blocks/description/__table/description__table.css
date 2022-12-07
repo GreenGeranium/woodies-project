@@ -1,0 +1,18 @@
+.description__table {
+  text-align: center;
+  background-image: url(../../../images/tablepack.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border: 4px solid rgba(119, 99, 7, 0.233);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+td, th {
+  border: 2px solid rgba(119, 99, 7, 0.233);
+}
+
+td {
+  color: rgb(75, 71, 9);
+}
